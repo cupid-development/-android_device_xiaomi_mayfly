@@ -11,6 +11,7 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 PRODUCT_PACKAGES += \
     ApertureResMayfly \
     FrameworksResMayfly \
+    NfcResMayfly \
     SettingsProviderResMayfly \
     SystemUIResMayfly \
     WifiResMayfly
