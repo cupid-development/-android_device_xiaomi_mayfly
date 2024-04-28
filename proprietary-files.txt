@@ -1179,6 +1179,10 @@ vendor/firmware/a730_zap.mbn
 vendor/firmware/a730_zap.mdt
 vendor/firmware/gmu_gen70000.bin
 
+# Sensors - SSC
+-vendor/lib/libssccalapi@2.0.so
+-vendor/lib64/libssccalapi@2.0.so
+
 # Sensors configs
 vendor/etc/sensors/config/ak991x_dri_0.json
 vendor/etc/sensors/config/bmp285_0.json
