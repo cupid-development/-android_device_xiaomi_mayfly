@@ -1179,6 +1179,11 @@ vendor/firmware/a730_zap.mbn
 vendor/firmware/a730_zap.mdt
 vendor/firmware/gmu_gen70000.bin
 
+# NFC configs
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp.conf
+vendor/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
+
 # Sensors - SSC
 -vendor/lib/libssccalapi@2.0.so
 -vendor/lib64/libssccalapi@2.0.so
