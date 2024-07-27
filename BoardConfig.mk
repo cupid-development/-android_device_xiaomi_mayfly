@@ -9,6 +9,9 @@ DEVICE_PATH := device/xiaomi/mayfly
 # Inherit from sm8450-common
 include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 
+# Light
+TARGET_SENSOR_NOTIFIER_EXT := //device/xiaomi/mayfly:libsensor-notifier-ext-light
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
